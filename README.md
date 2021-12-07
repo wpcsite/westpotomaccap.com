@@ -1,2 +1,0 @@
-# wpcsite.github.io
-wpcsite
