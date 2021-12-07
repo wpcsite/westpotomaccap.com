@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href="img/general/favicon.png" type="image/png"/>
+<link rel="shortcut icon" href="img/general/favicon.png" type="image/png"/>
+<title>GWUCUI</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans|Maven+Pro:500' rel='stylesheet' type='text/css'> <!--added for arrow scroll-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="scroll.css">
+<script src="scroll.js"></script>
+<link rel="stylesheet" href="maps.css">
+<script src="maps.js"></script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Muli", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("img/general/newBkgd.JPG");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+</style>
+<body>
+
+<header>
+</header>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-custom w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-small"><i class="fa fa-home"></i></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-small w3-text-white w3-hide-small w3-hide-medium">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-question-circle"></i> ABOUT</a>
+      <a href="#products" class="w3-bar-item w3-button"><i class="fa fa-bank"></i> PRODUCTS</a>
+      <a href="#literacy" class="w3-bar-item w3-button"><i class="fa fa-graduation-cap"></i> EDUCATION</a>
+      <a href="#news" class="w3-bar-item w3-button"><i class="fa fa-newspaper-o"></i> NEWS</a>
+      <a href="#donate" class="w3-bar-item w3-button"><i class="fa fa-money"></i> DONATE</a>
+      <a href="#involved" class="w3-bar-item w3-button"><i class="fa fa-puzzle-piece"></i> GET INVOLVED</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#advisors" class="w3-bar-item w3-button"><i class="fa fa-th"></i> ADVISORS</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-paper-plane"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-custom w3-card w3-animate-left w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-question-circle"></i> ABOUT</a>
+  <a href="#products" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-bank"></i> PRODUCTS</a>
+  <a href="#literacy" class="w3-bar-item w3-button"><i class="fa fa-graduation-cap"></i> EDUCATION</a>
+  <a href="#news" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-newspaper-o"></i> NEWS</a>
+  <a href="#donate" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-money"></i> DONATE</a>
+  <a href="#involved" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-puzzle-piece"></i> GET INVOLVED</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+  <a href="#advisors" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-th"></i> ADVISORS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-paper-plane"></i> CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<section id="section03" class="demo">
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="center">
+    <span class="w3-jumbo w3-hide-small"><img class="w3-image w3-round-large" src="img/general/whiteLogo.png" alt="GW" width="500px"></span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium"><img class="w3-image w3-round-large" src="img/general/whiteLogo.png" alt="GW"></span>
+  </div>
+  <a href="#about"><span></span></a>
+</section>
+  <div class="w3-display-bottomright w3-text-white w3-large" style="padding:24px 48px">
+    <a href="https://www.facebook.com/GWUCUI/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/gwucui/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/gwucui"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/company/gwucui/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>  
+</header>
+
+
+<!-- About Section -->
+<div class="w3-container w3-white" style="padding:128px 16px" id="about">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Learn more about our initiative.</h3>
+      <p>Our mission here at the GWUCUI is to strengthen the GW community by helping students bank affordably, build credit,
+       better manage their finances and develop valuable skill sets that they can bring to their careers. 
+       We seek to accomplish this goal by chartering a student-run Credit Union. A Credit Union is essentially a 
+       not-for-profit bank. This will allow us to not only offer small loans with low rates, but also pay higher interest on member deposits! 
+       In addition to banking services, we will offer a unique credit building program that builds 
+       credit score and knowledge of finances. All these services aim to empower the GW community while also providing job 
+       experience for GW students interested in any field.</p><br>
+      <p><a href="#team" class="w3-button w3-custom"><i class="fa fa-user"> </i> Meet Our Team</a></p>
+    </div><br>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="img/general/Kogan.JPG" alt="GW" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Products Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="products">
+  <h3 class="w3-center">PROPOSED PRODUCTS AND SERVICES</h3>
+  <p class="w3-center w3-large">Once we are granted a charter from the NCUA, we will offer:</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-third">
+      <i class="w3-text-custom fa fa-bank w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Share Accounts</p>
+      <p>Our share accounts will be savings accounts that offer higher interest than any of our competitors,
+		partial ownership of the Credit Union, and voting rights on Credit Union policies.</p>
+    </div>
+    <div class="w3-third">
+      <i class="w3-text-custom fa fa-credit-card w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Share Draft Accounts</p>
+      <p>Our share draft accounts will be standard checking accounts, and will give the student access to
+		on-campus ATMs and personalized debit cards.</p>
+    </div>
+    <div class="w3-third">
+      <i class="w3-text-custom fa fa-arrow-circle-o-up w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Credit Builder</p>
+      <p>Our credit building program will be an effective, cheap, and risk-free way of building credit through
+		the use of a small secured loan.</p>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+  	<div class="w3-third">
+      <i class="w3-text-custom fa fa-book w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Textbook Loans</p>
+      <p>Similar to internship loans, these loans will help students cover the cost of expensive
+		textbooks. Students with on-campus jobs who know that they will be able to cover the payment
+		but don’t currently have the means will benefit from this.</p>
+    </div>
+    <div class="w3-third">
+      <i class="w3-text-custom fa fa-graduation-cap w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Student Org Micro-loans</p>
+      <p>Student orgs will be able to get short-term loans to cover the cost of their operations while they are
+		waiting for funding from the school.</p>
+    </div>
+    <div class="w3-third">
+      <i class="w3-text-custom fa fa-briefcase w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Internship Loans</p>
+      <p>After 3 rounds of surveying and over 1,000 conversations with students, we have identified the areas
+		where students are willing to take out small loans. Internship-related expenses that happen
+		before a student’s first pay day will be met with an internship loan.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Financial Literacy Section -->
+<div class="w3-container w3-white" style="padding:128px 16px" id="literacy">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="img/general/FLphoto.jpg" alt="GW" width="700" height="394">
+    </div>
+    <div class="w3-col m6">
+      <h3>We're developing a free curriculum for students.</h3>
+      <p>We aim to solve a critical problem that our peers face: a lack of financial literacy education and training to manage their personal finances. Fellow GW undergraduate and graduate students have told us they feel underprepared for the transition to financial independence after graduation. A lack of financial literacy follows into adulthood, affecting the ability to plan and sustainably spend. We have already hosted events and are now working with partners on campus to develop a curriculum around financial literacy. These resources will help students understand their personal finances and utilize our products.</p><br>
+      <p><a href="#involved" class="w3-button w3-custom"><i class="fa fa-puzzle-piece"> </i> Get Involved</a></p>
+    </div>
+  </div>
+</div>
+
+<!-- In the News -->
+<div class="w3-container w3-row w3-center w3-light-grey w3-padding-64" id="news">
+  <h3 class="w3-center">In the News</h3>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-third">
+    <a href="https://www.buzzsprout.com/268738/3680971-cu-2-0-podcast-episode-92-sahil-pankhaniya-a-start-up-credit-union-at-george-washington-university"><img class="w3-hover-opacity" src="img/general/podcast.png" width="100%"></a><br><br>
+    </div>
+    <div class="w3-third">
+    <a href="https://www.gwhatchet.com/2018/04/26/freshmen-plan-to-get-student-run-credit-union-off-the-ground-by-2020/"><img class="w3-hover-opacity" src="img/general/Hatchet.png" width="100%"></a><br><br>
+    </div>
+    <div class="w3-third">
+    <a href="https://www.cutimes.com/2020/04/03/charter-in-reach-for-student-run-credit-union/"><img class="w3-hover-opacity" src="img/general/CUT.png" width="100%"></a>
+	</div>
+</div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Donate Section -->
+<div class="w3-container w3-custom w3-padding-64" id="donate">
+  <div class="w3-row-padding">
+      <h3>Donate</h3>
+      <p>Your assistance will help us get this Credit Union operational. Your donation is greatly appreciated. For donations greater than $2,000, or if you have any questions at all, please email us at info@gwucui.com, and a core team member will be assigned to personally work with you.</p><br>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-blue w3-text-blue w3-center" style="width:70%">%</div>
+      </div>
+      <p><i class="fa fa-money w3-margin-right"></i>$100,000 raised</p><br>
+      <div class="w3-row">
+     	 <div class="w3-half w3-center">
+		  <form id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick" />
+			<input type="hidden" name="hosted_button_id" value="8F555C9JZZRAS" />
+			<button class="w3-button w3-white w3-text-custom" type="submit" style="width:50%">
+			  <i class="fa fa-paypal"></i> PayPal
+			</button>
+		  </form><br>
+		  </div>
+		  <div class="w3-half w3-center">
+		  <button class="w3-button w3-white w3-text-custom" id="GoFundMe" style="width:50%" onclick="location.href='https://gf.me/u/ywps9i';">
+			  <i class="fa fa-money"></i> GoFundMe
+		  </button>
+		  </div>
+	</div>
+  </div>
+</div>
+
+<!-- Get Involved Section -->
+<div class="w3-container w3-center" style="padding:128px 16px" id="involved">
+  <h3>Get Involved</h3>
+  <p class="w3-large">Discover the many ways to support our initiative's goals.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+  
+    <div class="w3-section">
+      <ul class="w3-ul w3-white w3-card-2" style="width:80%;margin:auto">
+        <li class="w3-blue w3-xlarge w3-padding-32">Newsletter</li>
+        <li class="w3-padding-16">Stay up to date with the George Washington University Credit Union Initiative. Sign up to recieve our newsletter below.</li>
+        <li class="w3-light-grey w3-padding-24">
+          <a class="w3-button w3-blue w3-padding-large" href="https://docs.google.com/forms/d/1P-jYA_y5lQKN8T-_yQaIvZE6mmkgiSQn7oxsejiZ3kc/viewform?edit_requested=true">Sign Up</a>
+        </li>
+      </ul>
+    </div><br>
+    
+    <div class="w3-section">
+      <ul class="w3-ul w3-white w3-card-2" style="width:80%;margin:auto">
+        <li class="w3-custom w3-xlarge w3-padding-32">Students</li>
+        <li class="w3-padding-16">Join our initiative to be one of the Credit Union's founding members. Being totally student-run is a core feature of our initiative and soon-to-be Credit Union. We have open positions across our organization and currently seek diverse talent. You will gain hands-on experience working in a grassroots, entrepreneurial organization. We take pride in our initiative and would love to have you on the team. Please Apply on Handshake using the link below. If we are not currently accepting applications on Handshake, please send a Resume and Cover Letter to gwucuioprt@gmail.com and we will get back to you in a timely manner if we believe you would be a great fit for GWUCUI.</li>
+        <li class="w3-light-grey w3-padding-24">
+          <a class="w3-button w3-custom w3-padding-large" href="https://app.joinhandshake.com/employers/326614?ref=topbar-search-result">Apply on Handshake</a>
+        </li>
+      </ul>
+    </div><br>
+    
+    <div class="w3-section">
+      <ul class="w3-ul w3-white w3-card-2" style="width:80%;margin:auto">
+        <li class="w3-custom w3-xlarge w3-padding-32">Professionals</li>
+        <li class="w3-padding-16">Your assistance will help us get this Credit Union operational. A strong Advisory Committee is critical to achieving our goals. To join the Advisory Committee, send an email to info@gwucui.com, and a core team member will be assigned to personally work out details with you.</li>
+        <li class="w3-light-grey w3-padding-24">
+          <a class="w3-button w3-custom w3-padding-large" href="mailto: info@gwucui.com">Email Us</a>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">The Team</h3>
+  <p class="w3-center w3-large">Get to know us.</p>
+
+	<!-- Row 1 -->
+	<div class="w3-row-padding" style="margin-top:64px">
+
+    <div class="w3-col l3 m6">
+    <div class="w3-card">
+      <img src="img/team/julian.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sample Team Bio.">
+      <div class="w3-container">
+          <h3>Sample</h3>
+          <p class="w3-opacity">Sample Team Position Title</p>
+      </div>
+    
+	
+	
+	
+	    
+</div>
+
+    
+   
+	
+	
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="w3-text-custom fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> general contact info</p>
+    <p><i class="w3-text-custom fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Foggy Bottom, D.C.</p><br>
+    <!-- Embedded map -->
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="400px" id="gmap_canvas" src="https://maps.google.com/maps?q=George%20Washington%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2chaturbate.com"></a></div><style>.mapouter{position:relative;text-align:right;}.gmap_canvas {overflow:hidden;background:none!important;}</style></div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-custom w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey w3-text-custom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/GWUCUI/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/gwucui/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/gwucui"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/company/gwucui/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+  </div>
+  <p>© 2020 by The George Washington University Credit Union Initiative</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
