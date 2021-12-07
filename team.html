@@ -2,7 +2,7 @@
 <html>
 <link rel="icon" href="img/general/favicon.png" type="image/png"/>
 <link rel="shortcut icon" href="img/general/favicon.png" type="image/png"/>
-<title>GWUCUI</title>
+<title>West Potomac Capital</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
@@ -50,65 +50,97 @@ body, html {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-    <div class="w3-bar w3-custom w3-card" id="myNavbar">
-      <!-- Right-sided navbar links -->
-      <div class="w3-right w3-small w3-text-white w3-hide-small w3-hide-medium">
-        <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-question-circle"></i> HOME</a>
-        <a href="team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
-        <a href="strategies.html" class="w3-bar-item w3-button"><i class="fa fa-question-circle"></i> STRATEGIES</a>
-        <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-paper-plane"></i> CONTACT</a>
-      </div>
-      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-  
-      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large" onclick="w3_open()">
-        <i class="fa fa-bars"></i>
-      </a>
+  <div class="w3-bar w3-custom w3-card" id="myNavbar">
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-small w3-text-white w3-hide-small w3-hide-medium">
+      <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-question-circle"></i> HOME</a>
+      <a href="team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="strategies.html" class="w3-bar-item w3-button"><i class="fa fa-question-circle"></i> STRATEGIES</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-paper-plane"></i> CONTACT</a>
     </div>
-  </div>
-  
-  <!-- Sidebar on small screens when clicking the menu icon -->
-  <nav class="w3-sidebar w3-bar-block w3-custom w3-card w3-animate-left w3-hide-large" style="display:none" id="mySidebar">
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-puzzle-piece"></i> HOME</a>
-    <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
-    <a href="strategies.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-th"></i> STRATEGIES</a>
-    <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-paper-plane"></i> CONTACT</a>
-  </nav>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
-  
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-custom w3-card w3-animate-left w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-puzzle-piece"></i> HOME</a>
+  <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+  <a href="strategies.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-th"></i> STRATEGIES</a>
+  <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-paper-plane"></i> CONTACT</a>
+</nav>
+
 <!-- Header with full-height image -->
 <section id="section03" class="demo">
 <header class="bgimg-1 w3-display-container" id="home">
   <div class="center">
-    <span class="w3-jumbo w3-hide-small"><img class="w3-image w3-round-large" src="img/general/whiteLogo.png" alt="GW" width="500px"></span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium"><img class="w3-image w3-round-large" src="img/general/whiteLogo.png" alt="WPC"></span>
+    <span class="w3-jumbo w3-hide-small"><img class="w3-image w3-round-large" src="img/general/whiteLogo.png" alt="WPC" width="500px"></span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium"><img class="w3-image w3-round-large" src="img/general/whiteLogo.png" alt="=WPC"></span>
   </div>
   <a href="#about"><span></span></a>
 </section>
-
+  <div class="w3-display-bottomright w3-text-white w3-large" style="padding:24px 48px">
+    <a href="https://www.linkedin.com/company/west-potomac-capital-llc"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>  
 </header>
 
 
 
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
 <!-- Team Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="team">
-  <h3 class="w3-center">The Team</h3>
-  <p class="w3-center w3-large">Get to know us.</p>
+    <h3 class="w3-center">The Team</h3>
+    <p class="w3-center w3-large">Get to know us.</p>
+  
+      <!-- Row 1 -->
+      <div class="w3-row-padding" style="margin-top:64px">
+  
+      <div class="w3-col l3 m6">
+      <div class="w3-card">
+        <img src="img/team/julian.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sample Team Bio.">
+        <div class="w3-container">
+            <h3>Sample</h3>
+            <p class="w3-opacity">Sample Team Position Title</p>
+        </div>
 
-	<!-- Row 1 -->
-	<div class="w3-row-padding" style="margin-top:64px">
+    <!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+    <h3 class="w3-center">CONTACT</h3>
+    <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+    <div style="margin-top:48px">
+      <p><i class="w3-text-custom fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> general contact info</p>
+      <p><i class="w3-text-custom fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Foggy Bottom, D.C.</p><br>
+     
 
-    <div class="w3-col l3 m6">
-    <div class="w3-card">
-      <img src="img/team/julian.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sample Team Bio.">
-      <div class="w3-container">
-          <h3>Sample</h3>
-          <p class="w3-opacity">Sample Team Position Title</p>
-      </div>
-    
-	
-	
-	
+<!-- Footer -->
+<footer class="w3-center w3-custom w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey w3-text-custom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/GWUCUI/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/gwucui/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/gwucui"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/company/gwucui/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+  </div>
+  <p>© West Potomac Capital LLC All Rights Reserved</p>
+
+</footer>
+ 
 <script>
 // Modal Image Gallery
 function onClick(element) {
