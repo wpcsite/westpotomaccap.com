@@ -32,17 +32,18 @@ body, html {
 
 /*Edit blue bar at the top of the page*/
 .w3-bar .w3-button {
-font-size: 15px;
+  
+  font-size: 15px;
   padding: 35px;
 }
 /*adjust logo*/
 .center {
   margin: 0;
-  position: absolute;
-  top: 52%;
-  left: 24%;
+  position: relative;
+  top: 175%;
+  left: 5%;
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
 }
 
 </style>
@@ -58,7 +59,7 @@ font-size: 15px;
     <!-- centered navbar links -->
     <div class="w3-center w3-small w3-hide-small w3-hide-medium">
       <img class="w3-image center " src="img/whitelogo.png" alt="WPC" width="200px">
-      <a href="index.html" class=" w3-button"></i> HOME</a>
+      <a href="index.html" class=" w3-button" ></i> HOME</a>
       <a href="team.html" class=" w3-button"></i> TEAM</a>
       <a href="strategies.html" class=" w3-button"></i> STRATEGIES</a>
       <a href="news&publications.html" class=" w3-button"></i> NEWS AND PUBLICATIONS</a>
@@ -87,7 +88,10 @@ font-size: 15px;
 <!-- Header with full-height image -->
 <section id="section03" class="demo">
   <header class="bgimg-1 w3-display-container" id="home">
-    
+    <!--<div class="center w3-custom2">
+      <span class="w3-jumbo wc-custom w3-hide-small"><img class="w3-image w3-round-large" src="img/general/whiteLogo.png" alt="GW" width="500px"></span><br>
+      <span class="w3-xxlarge w3-hide-large w3-hide-medium"><img class="w3-image w3-round-large" src="img/general/whiteLogo.png" alt="GW"></span>
+    </div>-->
   </section>
     <div class="w3-display-bottomright w3-text-white w3-large" style="padding:24px 48px">
       <a href="https://www.linkedin.com/company/west-potomac-capital-llc"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
@@ -95,41 +99,27 @@ font-size: 15px;
  
   </header>
 
+
 <!-- About Section -->
+
+
+
+
 <div class="w3-container w3-white" style="padding:128px 16px" id="about">
   <div class="w3-row-padding">
-    <div class="w3-col m6">
-      <h3>Learn more about West Potomac Capital.</h3>
+    <div class="w3-center">
+      <h3>A 2020-Vintage Preferred and Hybrid Capital Strategy focused on the Financial Services Industry</h3>
       <p>sample text</p><br>
-      <p><a href="#team" class="w3-button w3-custom"><i class="fa fa-user"> </i> Meet Our Team</a></p>
+      <p><a href="team.html" class="w3-button w3-buttoncolor"><i class="fa fa-user"> </i> Meet Our Team</a></p>
     </div><br>
     <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="img/general/Kogan.JPG" alt="GW" width="700" height="394">
+      <img class="w3-image w3-round-large" src="img/general/Kogan.JPG" alt="WPC" width="700" height="394">
     </div>
   </div>
 </div>
 
 
 
-
-
-
-
-<!-- In the News -->
-<div class="w3-container w3-row w3-center w3-light-grey w3-padding-64" id="news">
-  <h3 class="w3-center">In the News</h3>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-third">
-    <a href="https://www.buzzsprout.com/268738/3680971-cu-2-0-podcast-episode-92-sahil-pankhaniya-a-start-up-credit-union-at-george-washington-university"><img class="w3-hover-opacity" src="img/general/podcast.png" width="100%"></a><br><br>
-    </div>
-    <div class="w3-third">
-    <a href="https://www.gwhatchet.com/2018/04/26/freshmen-plan-to-get-student-run-credit-union-off-the-ground-by-2020/"><img class="w3-hover-opacity" src="img/general/Hatchet.png" width="100%"></a><br><br>
-    </div>
-    <div class="w3-third">
-    <a href="https://www.cutimes.com/2020/04/03/charter-in-reach-for-student-run-credit-union/"><img class="w3-hover-opacity" src="img/general/CUT.png" width="100%"></a>
-	</div>
-</div>
-</div>
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
@@ -140,22 +130,14 @@ font-size: 15px;
   </div>
 </div>
 
-
-<!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
-  <h3 class="w3-center">CONTACT</h3>
-  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
-  <div style="margin-top:48px">
-    <p><i class="w3-text-custom fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> general contact info</p>
-    <p><i class="w3-text-custom fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Foggy Bottom, D.C.</p><br>
    
 
 <!-- Footer -->
-<footer class="w3-center w3-custom w3-padding-64">
+<footer class="w3-center w3-custom w3-padding-32">
   <a href="#home" class="w3-button w3-light-grey w3-text-custom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
 
-    <a href="https://www.linkedin.com/company/gwucui/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/company/west-potomac-capital-llc"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
   </div>
   </div>
   <p>© West Potomac Capital LLC All Rights Reserved</p>
@@ -187,6 +169,5 @@ function w3_close() {
     mySidebar.style.display = "none";
 }
 </script>
-
 </body>
 </html>

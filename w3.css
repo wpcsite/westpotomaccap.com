@@ -146,9 +146,10 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
 .w3-hover-none:hover{box-shadow:none!important}
 /* Colors */
-.w3-custom,.w3-hover-custom:hover{color:#fff!important;background-color:#164061!important} /* GWUCUI Color */
-.w3-amber,.w3-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
-.w3-aqua,.w3-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.w3-custom,.w3-hover-custom:hover{color:#fefefe!important;background-color:#1F497D!important} /* WPC Color */
+.w3-custom2,.w3-hover-custom:hover{color:#fefefe!important} /* WPC Color 2 */
+.w3-buttoncolor,.w3-hover-custom:hover{color:#fefefe!important;background-color:#4F81BD!important}/* WPC Button Color */
+.w3-teamcardcolor,.w3-hover-custom:hover{color:#000!important;background-color:#fff!important}/* WPC Team Card */
 .w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
 .w3-light-blue,.w3-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
 .w3-brown,.w3-hover-brown:hover{color:#fff!important;background-color:#795548!important}
