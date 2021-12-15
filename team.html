@@ -45,6 +45,53 @@ font-size: 15px;
   transform: translate(-50%, 0%);
 }
 
+        
+        .flip-card {
+          font-family: "Lato";
+          background-color: transparent;
+          width: 600px;
+          height:450px;
+          perspective: 1000px;
+        }
+      
+      .flip-card-inner {
+        font-family: "Lato";
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      }
+      
+      .flip-card:hover .flip-card-inner {
+        font-family: "Lato";
+        transform: rotateY(180deg);
+      }
+      
+      .flip-card-front, .flip-card-back {
+        font-family: "Lato";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      
+      .flip-card-front {
+        font-family: "Lato";
+        background-color: #bbb;
+        color: black;
+      }
+      
+      .flip-card-back {
+        font-family: "Lato";
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+      
 </style>
 <body>
 
@@ -61,6 +108,7 @@ font-size: 15px;
       <a href="index.html" class=" w3-btn"></i> HOME</a>
       <a href="team.html" class=" w3-btn"></i> TEAM</a>
       <a href="news&publications.html" class=" w3-btn"></i> NEWS AND PUBLICATIONS</a>
+      <a href="careers.html" class=" w3-btn"></i> CAREERS</a>
       <a href="contact.html" class=" w3-btn"></i> CONTACT</a>
       
     </div>
@@ -79,6 +127,7 @@ font-size: 15px;
     <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button"></i> HOME</a>
     <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-button"></i> TEAM</a>
     <a href="news&publications.html" onclick="w3_close()" class="w3-bar-item w3-button"></i> NEWS & PUBLICATIONS</a>
+    <a href="careers.html" onclick="w3_close()" class="w3-bar-item w3-button"></i> CAREERS</a>
     <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button"></i> CONTACT</a>
   </nav>
   
@@ -113,40 +162,49 @@ font-size: 15px;
     <p class="w3-center w3-large">Get to know us.</p>
   
     <div class="w3-row-padding" style="margin-top:64px">
-
-        <div class="w3-col l3 m6">
-        <div class="w3-card">
-          <img src="img/finallogo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="sample bio.">
-          <div class="w3-teamcardcolor w3-container">
-              <h3>Trevor Montano</h3>
-              <p class="w3-opacity">Founder, Managing Member</p>
+      
+      
+      <!--<div class="w3-col 9 m4">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="img/finallogo.jpg" alt="WPC" style="width:100%;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1> 
+              <p>Architect & Engineer</p> 
+              <p>We love that guy</p>
+            </div>
           </div>
         </div>
         </div>
-            
-        <div class="w3-col l3 m6">
-        <div class="w3-card">
-          <img src="img/finallogo.jpg" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" alt="sample bio.">
-          <div class="w3-teamcardcolor w3-container">
-              <h3>Eric Goldberg</h3>
-              <p class="w3-opacity">Vice President</p>
+      -->
+        
+        <div class="w3-col 9 m4">
+          <div class="w3-card">
+            <img src="img/finallogo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Trevor Montano has over 20 years of experience in investment banking and portfolio management focused on the financial services industry and preferred and hybrid capital securities. Prior to founding the West Potomac Capital, Trevor was a Partner and Managing Director at Moelis & Company, a global investment bank, where he provided strategic and financial advice to a range of financial institutions including banks, specialty finance and financial technology companies. He was also responsible for building the bank M&A practice for Moelis & Company. Prior to joining Moelis & Company, he served as the Chief Investment Officer at the U.S. Department of the Treasury and was responsible for managing financial institution investments made by the U.S. Government under the Troubled Asset Relief Program (TARP). Trevor assumed responsibility for, and management of, the portfolio of ~$5 billion in investments (~100 institutions) in 2014 and largely wound it down over three years, balancing speed of exit with maximizing taxpayer recoveries. This portfolio consisted of preferred shares, common equity and warrants in U.S. banks and specialty finance companies. He also served on over 10 bank and bank holding company boards of directors during his tenure at the U.S. Department of Treasury. Prior to public service, he worked as an investment banker at Citigroup and UBS AG in their respective Financial Institution Groups where he was responsible for M&A origination, capital raising, debt financing and structuring, underwriting and distribution of preferred and hybrid capital securities. As an accomplished corporate finance advisor and portfolio manager, Trevor has completed more than 30 strategic M&A and capital raising transactions for financial institutions worth over $35 billion. Trevor has an M.B.A. from Columbia Business School and a B.S. from the School of Business at George Mason University. He is a Certified Public Accountant (Virginia – Inactive), CFA Charterholder and a Board member at the CFA Society of Washington D.C He also serves as a member of the Board of Trustees and chair of the Investment Committee for the George Mason University Foundation, Inc. and is an active member of the Economic Club of Washington D.C.">
+            <div class="w3-teamcardcolor w3-container w3-center">
+                <h3>Trevor Montano</h3>
+                <p class="w3-opacity">Founder, Managing Member</p>
+            </div>
           </div>
-        </div>
-        </div>
-            
-        <div class="w3-col l3 m6">
+          </div>           
+        
+          <div class="w3-col 9 m4">
         <div class="w3-card">
-          <img src="img/finallogo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="sample bio.">
-          <div class="w3-teamcardcolor w3-container">
+          <img src="img/finallogo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sahil Pankhaniya built 3+ years of small-financial institution development and regulatory experience early in his career by leading efforts to charter a low-income designated federal credit union.  He completed FIG M&A internships at bulge-bracket and boutique investment banks.  He is responsible for driving security and institution fundamental analyses used to support investment-theses and accomplish other fund objectives."> 
+       
+          <div class="w3-teamcardcolor w3-container w3-center">
               <h3>Sahil Pankhaniya</h3>
               <p class="w3-opacity">Investment Analyst</p>
           </div>
         </div>
         </div> 
-        <div class="w3-col l3 m6">
+        
+        <div class="w3-col 9 m4">
             <div class="w3-card">
-              <img src="img/finallogo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="sample bio.">
-              <div class="w3-teamcardcolor w3-container">
+              <img src="img/finallogo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tiago Requeijo is a Finance Professor at George Mason University.  He served in quantitative and market risk modeling roles at Goldman Sachs, Rock Creek Group, Securities and Exchange Commission (SEC) and the Options Clearing Corporation (OCC).  He has deep expertise in quantitative fixed income and risk modeling, data science and technology.  He graduated from Stanford University, MS and PhD in Mathematics.">
+              <div class="w3-teamcardcolor w3-container w3-center">
                   <h3>Tiago Requeijo</h3>
                   <p class="w3-opacity">Risk and Data Science Advisor</p>
               </div>
