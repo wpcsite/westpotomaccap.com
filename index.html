@@ -45,7 +45,53 @@ body, html {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, 0%);
 }
-
+       
+.flip-card {
+          font-family: "Lato";
+          background-color: transparent;
+          width: 600px;
+          height:450px;
+          perspective: 1000px;
+        }
+      
+      .flip-card-inner {
+        font-family: "Lato";
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      }
+      
+      .flip-card:hover .flip-card-inner {
+        font-family: "Lato";
+        transform: rotateY(180deg);
+      }
+      
+      .flip-card-front, .flip-card-back {
+        font-family: "Lato";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      
+      .flip-card-front {
+        font-family: "Lato";
+        background-color: #bbb;
+        color: black;
+      }
+      
+      .flip-card-back {
+        font-family: "Lato";
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+      
 </style>
 <body>
 
@@ -64,6 +110,7 @@ body, html {
       <a href="news&publications.html" class=" w3-btn"></i> NEWS AND PUBLICATIONS</a>
       <a href="careers.html" class=" w3-btn"></i> CAREERS</a>
       <a href="contact.html" class=" w3-btn"></i> CONTACT</a>
+      <a href="investorlogin.html" class=" w3-btn"></i> INVESTOR LOGIN</a>
       
     </div>
     
@@ -83,6 +130,7 @@ body, html {
   <a href="news&publications.html" onclick="w3_close()" class="w3-bar-item w3-button"></i> NEWS & PUBLICATIONS</a>
   <a href="careers.html" onclick="w3_close()" class="w3-bar-item w3-button"></i> CAREERS</a>
   <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button"></i> CONTACT</a>
+  <a href="investorlogin.html" onclick="w3_close()" class="w3-bar-item w3-button"></i> INVESTOR LOGIN</a>
 </nav>
 
 <!-- Header with full-height image -->
@@ -96,24 +144,62 @@ body, html {
 
  
   </header>
+ <!-- Team Section -->
+ <div class="w3-container w3-light-grey" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">A 2020-Vintage Preferred and Hybrid Capital Strategy focused on the Financial Services Industry</h3>
+  <p class="w3-center w3-large">We have identified a unique market opportunity</p>
 
+  <div class="w3-row-padding" style="margin-top:64px">
+    
+    <!--<div class="w3-col 9 m4">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img/finallogo.jpg" alt="WPC" style="width:100%;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>John Doe</h1> 
+            <p>Architect & Engineer</p> 
+            <p>We love that guy</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    -->
+      
+    <div class="w3-col 9 m4 w3-light-grey">
+      <div class="w3-card" style="padding:128px" >
+        <div class="w3-light-grey w3-container w3-center" style="width: 100%">
+            <h3>Trillion Dollar Asset Class</h3>
+            <br><br><br>
+            <p class="w3-center">Preferred and Hybrid Capital securities are a commonly overlooked, ~ $1.1 Trillion asset class dominated by investment-grade issuers.</p>
+        </div>
+      </div>
+    </div>    
+    
+    <div class="w3-col 9 m4 w3-light-grey">
+      <div class="w3-card" style="padding:128px" >
+        <div class="w3-light-grey w3-container w3-center" style="width: 100%">
+            <h3>Robust Sector Fundamentals</h3>
+            <br><br>
+            <p class="w3-center">Banks had robust capital and liquidity positions heading into the COVID-19 crisis.  Underwriting, asset quality and capital management were much improved since the Global Financial Crisis.</p>
+        </div>
+      </div>
+    </div>    
+    
+    <div class="w3-col 9 m4 w3-light-grey">
+      <div class="w3-card" style="padding:128px" >
+        <div class="w3-light-grey w3-container w3-center" style="width: 100%">
+            <h3>U.S. COVID-19 Response</h3>
+            <br><br><br>
+            <p class="w3-center">Unprecedented financial support for Americans, small businesses, corporations and state & local governments effectively disintermediating U.S. Banks and indirectly supporting the financial system
+              Over $6T of Federal Reserve liquidity, fiscal policy actions worth over $6T and other significant regulatory actions.</p>
+        </div>
+      </div>
+    </div>   
+         
 
 <!-- About Section -->
-
-
-
-
-<div class="w3-container w3-white" style="padding:128px 16px" id="about">
-  <div class="w3-row-padding">
-    <div class="w3-center">
-      <h3>A 2020-Vintage Preferred and Hybrid Capital Strategy focused on the Financial Services Industry</h3>
-      <p>sample text</p><br>
-    </div><br>
-    <div class="w3-col m6">
-    </div>
-  </div>
-</div>
-
 
 
 
@@ -128,24 +214,34 @@ body, html {
 
    
 
+<!-- Dividing Container Space, use margin top px to increase size -->
+
+<div class="w3-container w3-light-grey" style="padding:10px 16px" id="about">
+
+</div>
+</div>
+</div>
+
+
+
 <!-- Footer -->
 <footer class="w3-center w3-custom w3-padding-32">
-  
-  <div class="w3-xlarge w3-section">
 
-    <a href="https://www.linkedin.com/company/west-potomac-capital-llc"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-  </div>
-  </div>
-  <p>© West Potomac Capital LLC All Rights Reserved</p>
+<div class="w3-xlarge w3-section">
+
+<a href="https://www.linkedin.com/company/west-potomac-capital-llc"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+</div>
+</div>
+<p>© West Potomac Capital LLC All Rights Reserved</p>
 </footer>
- 
+
 <script>
 // Modal Image Gallery
 function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
+document.getElementById("img01").src = element.src;
+document.getElementById("modal01").style.display = "block";
+var captionText = document.getElementById("caption");
+captionText.innerHTML = element.alt;
 }
 
 
@@ -153,17 +249,18 @@ function onClick(element) {
 var mySidebar = document.getElementById("mySidebar");
 
 function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-  } else {
-    mySidebar.style.display = 'block';
-  }
+if (mySidebar.style.display === 'block') {
+mySidebar.style.display = 'none';
+} else {
+mySidebar.style.display = 'block';
+}
 }
 
 // Close the sidebar with the close button
 function w3_close() {
-    mySidebar.style.display = "none";
+mySidebar.style.display = "none";
 }
 </script>
+
 </body>
 </html>
