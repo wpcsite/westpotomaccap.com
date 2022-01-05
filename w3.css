@@ -35,7 +35,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-hoverable tbody tr:hover,.w3-ul.w3-hoverable li:hover{background-color:#ccc}.w3-centered tr th,.w3-centered tr td{text-align:center}
 .w3-table td,.w3-table th,.w3-table-all td,.w3-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
 .w3-table th:first-child,.w3-table td:first-child,.w3-table-all th:first-child,.w3-table-all td:first-child{padding-left:16px}
-.w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:normal}
 .w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
 .w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
 .w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
@@ -55,7 +55,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
 .w3-bar-block .w3-dropdown-hover,.w3-bar-block .w3-dropdown-click{width:100%}
 .w3-bar-block .w3-dropdown-hover .w3-dropdown-content,.w3-bar-block .w3-dropdown-click .w3-dropdown-content{min-width:100%}
-.w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:center;padding:8px 16px}
+.w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:center;padding:4px 4px}
 .w3-main,#main{transition:margin-left .4s}
 .w3-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
 .w3-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
@@ -149,7 +149,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-custom,.w3-hover-custom:hover{color:#fefefe!important;background-color:#1F497D!important} /* WPC Color */
 .w3-custom2,.w3-hover-custom:hover{color:#fefefe!important} /* WPC Color 2 */
 .w3-buttoncolor,.w3-hover-custom:hover{color:#fefefe!important;background-color:#4F81BD!important}/* WPC Button Color */
+.w3-buttoncolor2,.w3-hover-custom:hover{color:#4F81BD!important;background-color:#fefefe!important}/* WPC Button Color2 */
 .w3-teamcardcolor,.w3-hover-custom:hover{color:#000!important;background-color:#fff!important}/* WPC Team Card */
+.w3-teamcardcolor2,.w3-hover-custom:hover{color:#000!important;background-color:#fff!important}/* WPC Team Card */
 .w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
 .w3-light-blue,.w3-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
 .w3-brown,.w3-hover-brown:hover{color:#fff!important;background-color:#795548!important}
@@ -179,7 +181,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-pale-yellow,.w3-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
 .w3-pale-blue,.w3-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
 .w3-text-amber,.w3-hover-text-amber:hover{color:#ffc107!important}
-.w3-text-custom,.w3-hover-text-custom:hover{color:#164061!important} /* GWUCUI Color */
+.w3-text-custom,.w3-hover-text-custom:hover{color:#164061!important}
 .w3-text-aqua,.w3-hover-text-aqua:hover{color:#00ffff!important}
 .w3-text-blue,.w3-hover-text-blue:hover{color:#2196F3!important}
 .w3-text-light-blue,.w3-hover-text-light-blue:hover{color:#87CEEB!important}
