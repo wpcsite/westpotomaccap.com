@@ -5,5 +5,3 @@ $(function() {
   });
 });
 
-iframedoc = document.getElementById("my_iframe").contentDocument;
-iframedoc.getElementById("element_in_iframe").do_something();
